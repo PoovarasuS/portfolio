@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8 " />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6d82b64213.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/mylogo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-light fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </nav>
+        <div class="header-content">
+          <div class="header-text">
+            <p>Java Developer</p>
+            <h1>
+              Hi ,I'm <span>Poovarasu</span><br />
+              from Salem
+            </h1>
+          </div>
+          <div class="header-img">
+            <img src="images/background.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--About-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am poovarasu, Highly motivated fresher with knowledge in Java,
+              OOP concepts, problem-solving skills, and SQL.
+              Seeking an opportunity to leverage these skills in
+              adynamic software development role. Eager to
+              contribute to a team, deliver innovative solutions
+              and drive organizational success.
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming Language</span><br />Java</li>
+                <li><span>Web Development</span><br />HTML,CSS</li>
+                <li>
+                  <span>Database</span><br />SQL
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Java Developer <a href="https://drive.google.com/file/d/1jSM1kbU4j5ve3gYzafom6-DEU_j0zRCQ/view"><i class="fa-solid fa-link"></i></a></span><br />One month virtual internship at Oasis infobyte Successfully completed two tasks ,showcasing
+                  versatility and adaptability.<br>
+                  *Online Examination System.<br>
+                  *Number Guessing Game.
+                </li>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>SSLC</span><br />Wisdom Gates Matric Higher Secondary School<br>
+                  Percentage- 96.8%<br>
+                  2016 – 2017 | Omalur
+                </li>
+                <li><span>HSC</span><br />Wisdom Gates Matric Higher Secondary School<br>
+                  Percentage- 72.3%<br>
+                  2018 – 2019 | Omalur</li>
+                <li>
+                  <span>BE-Computer Science and Engineering</span><br />K S Ranagasamy College Of Technology<br>
+                  CGPA- 8.51*Till 5th Semester<br>
+                  2020 – present | Tiruchengode
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Services-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              A web designer creates the layout and design of a website. In
+              simple terms, a website designer makes a site look good.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              A web designer creates the layout and design of a website. In
+              simple terms, a website designer makes a site look good.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              A web designer creates the layout and design of a website. In
+              simple terms, a website designer makes a site look good.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work1.png" />
+            <div class="layer">
+              <h3>College Hostel Management Website</h3>
+              <p>
+                the project was to create an engaging
+and user-friendly interface that the user to join the
+hostel and book the vacancy rooms.
+              </p>
+              <a href="https://github.com/PoovarasuS/Hostel-management-System"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work2.jpeg" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                this appp is connect you to the talented people around the
+                world. Download it on play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work3.png" />
+            <div class="layer">
+              <h3>Recruitment Solution</h3>
+              <p>
+                Efficiently find the best candidates for your company with our online recruitment solution.
+              </p>
+              <a href="https://poovarasus.github.io/Recuriment_Solution/"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >spoovarasu180@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>9003914936</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/poovarasu-s-936424210/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/PoovarasuS"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/madyboy2607/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.hackerrank.com/profile/poovarasuthekin1"
+                ><i class="fa-brands fa-hackerrank"></i
+              ></a>
+            </div>
+            <a
+              href="https://drive.google.com/drive/folders/1_KB5mx5zaWyzUNQa53ECz-UTkGQMJoDr"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="https://formsubmit.co/spoovarasu180@gmail.com" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <!-- for security purpose i unhide the captcha-->
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Poovarasu <i class="fa-solid fa-heart"></i> 2023</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
